@@ -1,0 +1,16 @@
+# Development/test dependencies. Installs the runtime set plus the tooling
+# needed to run the test suite and measure coverage.
+-r requirements.txt
+
+pytest>=7.0
+pytest-cov>=4.0
+
+# The extension's dashboard smoke tests drive the app through
+# streamlit.testing.v1.AppTest, so Streamlit is needed to run the full suite.
+streamlit>=1.36
+plotly>=5.18
+yfinance>=0.2
+
+# Optional. Exports a Plotly figure to PNG so a dashboard chart can be checked
+# by eye without opening a browser. Nothing in the app or the tests needs it.
+kaleido

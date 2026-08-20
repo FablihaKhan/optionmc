@@ -1,0 +1,28 @@
+# Theme for the dashboard. Streamlit's own theming is used rather than custom
+# CSS wherever it reaches, because CSS aimed at Streamlit's internal class
+# names breaks on upgrade and would take the presentation down with it.
+#
+# Designed for a classroom projector: light ground, dark navy ink, one strong
+# accent. The accent is the same blue that means "LSMC" in every figure.
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f6f9"
+textColor = "#12233a"
+font = "sans serif"
+
+[server]
+headless = true
+# The dashboard reads results from disk; it must not restart mid-presentation
+# because a background job rewrote a CSV.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# A viewer should never see a Python traceback on the projector.
+showErrorDetails = false
+toolbarMode = "minimal"

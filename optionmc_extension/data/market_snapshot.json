@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-08-18",
+  "ticker": "SPY",
+  "spot": 768.3699951171875,
+  "strike": 749.0,
+  "expiry": "2026-10-30",
+  "days_to_expiry": 73,
+  "time_to_expiry": 0.2,
+  "market_put_price": 12.25,
+  "price_source": "mid",
+  "bid": 12.23,
+  "ask": 12.27,
+  "implied_volatility": 0.15062800064086918,
+  "historical_volatility": 0.17214928647384647,
+  "historical_drift": 0.11240768397984167,
+  "dividend_yield": 0.012085323553770148,
+  "risk_free_rate": 0.037873652428081515,
+  "risk_free_quoted": 0.038599999999999995,
+  "risk_free_date": "2026-08-14",
+  "history_start": "2021-08-18",
+  "history_end": "2026-08-18",
+  "n_history_days": 1255
+}
